@@ -1272,6 +1272,7 @@ GameObject:
   - component: {fileID: 8300532328924938091}
   - component: {fileID: 3636405105792793469}
   - component: {fileID: 2786138953278661892}
+  - component: {fileID: 5632165744269870641}
   m_Layer: 0
   m_Name: frog_blue_green
   m_TagString: Untagged
@@ -1306,7 +1307,7 @@ Animator:
   m_GameObject: {fileID: 8629666665515554689}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2cb69aea7407e7b4d933e11a07f6590e, type: 3}
-  m_Controller: {fileID: 9100000, guid: 4aa7b268c54ecd246b590cde13d7e5f9, type: 2}
+  m_Controller: {fileID: 9100000, guid: dac8f20f12320014fb759a27aad9c233, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1338,6 +1339,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.884782, y: 0.53303146, z: 1.0983087}
   m_Center: {x: 0.00819236, y: 0.03686571, z: 0.40142888}
+--- !u!114 &5632165744269870641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8629666665515554689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81e775fda6c40544b9105cce111cf9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8633986376178706178
 GameObject:
   m_ObjectHideFlags: 0
